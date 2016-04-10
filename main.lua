@@ -26,8 +26,7 @@ function apply_falloff()
             i = i + 1
             local mixel = matrix[i]
 
-            mixel.accumulator = mixel.accumulator * 0
-            --mixel.accumulator = mixel.accumulator - 100
+            mixel.accumulator = mixel.accumulator * .75
         end
     end
 end
